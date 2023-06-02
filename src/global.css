@@ -1,0 +1,17 @@
+.global-list-div {
+    /* Apply Tailwind CSS utility classes */
+    @apply px-3 pt-2 bg-gray-400;
+
+    &:hover {
+        @apply px-3 pt-2 bg-gray-200;
+    }
+}
+
+
+.global-input{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg py-2.5 w-full px-3;
+
+    &:focus {
+        @apply focus:ring-blue-500 focus:border-blue-500
+    }
+}  

@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.global-list-div {
+  /* Apply Tailwind CSS utility classes */
+  @apply px-3 pt-2 bg-gray-400;
+
+  &:hover {
+      @apply px-3 pt-2 bg-gray-200;
+  }
+}
